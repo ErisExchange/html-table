@@ -14,7 +14,6 @@ Gem::Specification.new do |gem|
   gem.rubyforge_project = 'shards'
   gem.extra_rdoc_files  = ['README', 'CHANGES'] + Dir['doc/*.rdoc']
 
-  gem.add_dependency('strongtyping')
   gem.add_dependency('structured_warnings')
 
   gem.add_development_dependency('test-unit')

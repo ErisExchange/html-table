@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), 'attribute_handler')
 require File.join(File.dirname(__FILE__), 'html_handler')
-require 'strongtyping'
+require 'strongtyping_pureruby'
 require 'structured_warnings'
 include StrongTyping
 
